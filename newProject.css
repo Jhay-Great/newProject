@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page logo */
+.logo {
+  font-family: cursive;
+  font-size: 1.5em;
+  /* color: #fff; */
+  font-weight: 700;
+  letter-spacing: -5px;
+  padding: 0 40px;
+}
+
+.logo:hover {
+  text-shadow: 2px 2px 1px #f2afef;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: black;
+  color: #fff;
+}
+
+strong {
+  font-size: 1.5em;
+}
+
+/* FIRST PART */
+.animation {
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.sq {
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 5px;
+}
+
+#sq1 {
+  margin: 0px 5px;
+  animation-name: bounce;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+}
+#sq2 {
+  margin: 0px 5px;
+  animation-name: bounce;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#sq3 {
+  margin: 0px 5px;
+  animation-name: bounce;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#sq4 {
+  margin: 0px 5px;
+  animation-name: bounce;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+}
+#sq5 {
+  margin: 0px 5px;
+  animation-name: bounce;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#sq6 {
+  margin: 0px 5px;
+  animation-name: bounce;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+#sq7 {
+  margin: 0px 5px;
+  animation-name: bounce;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+    top: 80%;
+  }
+
+  to {
+    top: 1%;
+  }
+}
+
+
+/* SECOND PART */
+.aboutMe {
+  background-color: #f00ff0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 150px;
+  /* border: #fff solid; */
+}
+
+.aboutMe img {
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.aboutMe p {
+  font-family: "Inter";
+  color: #fff;
+  letter-spacing: 1.5px;
+  /* border: 1px solid #fff; */
+}
+
+/* THIRD PART */
+.containerThree {
+  background-color: #f0f0f0;
+  padding: 10px 150px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1.4px;
+}
+
+.containerThree p {
+  background-color: gray;
+  padding: 6px;
+  width: 200px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 20px 0 10px;
+}
+
+.containerThree ul {
+  list-style: none;
+}
+
+.containerThree ul li {
+  padding: 4px 6px;
+}
